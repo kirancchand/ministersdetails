@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2">
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="328dp"
+        android:layout_height="25dp"
+        android:text="demo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/text_Name"
+        android:layout_width="326dp"
+        android:layout_height="31dp"
+        android:text="demo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/text_id"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <TextView
+        android:id="@+id/text_rank"
+        android:layout_width="328dp"
+        android:layout_height="30dp"
+        android:text="demo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/text_Name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/text_glno"
+        android:layout_width="328dp"
+        android:layout_height="28dp"
+        android:text="demo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/text_rank"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="328dp"
+        android:layout_height="24dp"
+        android:text="demo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/text_glno"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/text_place"
+        android:layout_width="330dp"
+        android:layout_height="27dp"
+        android:text="demo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/text_phone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/bt_edit"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/img2"
+        android:text="EDIT"
+        android:textColor="@color/colorPrimary"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/bt_delete"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="@+id/text_Name"
+        app:layout_constraintTop_toTopOf="@+id/text_id" />
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="89dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/img2"
+        android:text="DELETE"
+        android:textColor="@color/colorPrimary"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_View"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/img2"
+        android:text="View"
+        android:textColor="@color/colorPrimary"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/bt_edit"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="327dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="@+id/text_place"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/dept32"
+        android:layout_width="296dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/text_place"
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>
